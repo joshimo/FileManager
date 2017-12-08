@@ -14,10 +14,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/FileManager$Shell.coverage" NAME="Shell Coverage Results" MODIFIED="1496831635706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/FileManager$File_Manager_FX_Shell.coverage" NAME="File Manager FX Shell Coverage Results" MODIFIED="1499858212578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/FileManager$FileManager.coverage" NAME="FileManager Coverage Results" MODIFIED="1480677371639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -25,99 +36,123 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FileUnit.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/file/model/FileUnit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2381">
+              <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#6083#6084#0" expanded="true" />
+                <element signature="e#6127#6128#0" expanded="true" />
+                <element signature="method#getSize#0;class#FileUnit#0" expanded="false" />
+                <element signature="method#getExtension#0;class#FileUnit#0" expanded="false" />
+                <element signature="method#getAttribues#0;class#FileUnit#0" expanded="false" />
+                <element signature="method#getDate#0;class#FileUnit#0" expanded="false" />
+                <element signature="method#createFileTypeConstant#0;class#FileUnit#0" expanded="false" />
+                <element signature="method#identify#0;class#FileUnit#0" expanded="false" />
+                <element signature="method#getAbsolutePath#0;class#FileUnit#0" expanded="false" />
+                <element signature="method#getName#0;class#FileUnit#0" expanded="false" />
+                <element signature="method#isFile#0;class#FileUnit#0" expanded="false" />
+                <element signature="method#isDirectory#0;class#FileUnit#0" expanded="false" />
+                <element signature="method#toString#0;class#FileUnit#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+            <state relative-caret-position="352">
+              <caret line="37" column="40" lean-forward="true" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TableRenderer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TableRenderer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-              <folding />
-            </state>
+      <file leaf-file-name="google.com" pinned="false" current-in-tab="false">
+        <entry file="http://google.com">
+          <provider selected="true" editor-type-id="httpFileEditor">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Viewer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Viewer.java">
+      <file leaf-file-name="FileController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/file/controller/FileController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2284">
-              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Settable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Settable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Refreshable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Refreshable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pathable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Pathable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lambdable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Lambdable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dateble.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Dateble.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/FileManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state relative-caret-position="190">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#33531#33532#0" expanded="true" />
-                <element signature="e#33577#33578#0" expanded="true" />
-                <element signature="e#33607#33608#0" expanded="true" />
-                <element signature="e#33654#33655#0" expanded="true" />
+                <element signature="method#setGUI#0;class#FileController#0" expanded="false" />
+                <element signature="method#getDrivesList#0;class#FileController#0" expanded="false" />
+                <element signature="method#getFileList#0;class#FileController#0" expanded="false" />
+                <element signature="method#renameFileOrDirectory#0;class#FileController#0" expanded="false" />
+                <element signature="method#renameFileOrDirectory#1;class#FileController#0" expanded="false" />
+                <element signature="method#CheckFileName#0;class#FileController#0" expanded="false" />
+                <element signature="method#DeleteFile#0;class#FileController#0" expanded="false" />
+                <element signature="method#deleteFileOrDirectory#0;class#FileController#0" expanded="false" />
+                <element signature="method#createNewDirectory#0;class#FileController#0" expanded="false" />
+                <element signature="method#CopyDirectory#0;class#FileController#0" expanded="false" />
+                <element signature="method#DeleteDirectory#0;class#FileController#0" expanded="false" />
+                <element signature="method#copyFileOrDirectory#0;class#FileController#0" expanded="false" />
+                <element signature="method#copyFileOrDirectory#1;class#FileController#0" expanded="false" />
+                <element signature="method#executeFile#0;class#FileController#0" expanded="false" />
+                <element signature="method#searchFile#0;class#FileController#0" expanded="false" />
+                <element signature="method#searchFileByName#0;class#FileController#0" expanded="false" />
+                <element signature="method#CreateDestinationFileList#0;class#FileController#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FXController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fx_shell/FXController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+              <folding>
+                <element signature="e#3872#4251#0" expanded="false" />
+                <element signature="e#4250#4251#0" expanded="false" />
+                <element signature="e#4293#4680#0" expanded="false" />
+                <element signature="e#4679#4680#0" expanded="false" />
+                <element signature="e#4725#5107#0" expanded="false" />
+                <element signature="e#5106#5107#0" expanded="false" />
+                <element signature="e#5150#5540#0" expanded="false" />
+                <element signature="e#5539#5540#0" expanded="false" />
+                <element signature="method#handleSelection#0;class#FXController#0" expanded="false" />
+                <element signature="method#handleDoubleclick#0;class#FXController#0" expanded="false" />
+                <element signature="method#handleNewDirButtonAction#0;class#FXController#0" expanded="false" />
+                <element signature="method#handleRenameButtonAction#0;class#FXController#0" expanded="false" />
+                <element signature="method#handleCopyButtonAction#0;class#FXController#0" expanded="false" />
+                <element signature="method#handleSearchButtonAction#0;class#FXController#0" expanded="false" />
+                <element signature="e#16304#16492#0" expanded="false" />
+                <element signature="e#16491#16492#0" expanded="false" />
+                <element signature="method#getParentDirectoryPath#0;class#FXController#0" expanded="false" />
+                <element signature="method#setFTPmode#0;class#FXController#0" expanded="false" />
+                <element signature="method#isFTPmode#0;class#FXController#0" expanded="false" />
+                <element signature="method#createDrivesPanels#0;class#FXController#0" expanded="false" />
+                <element signature="e#23931#24322#0" expanded="false" />
+                <element signature="e#24321#24322#0" expanded="false" />
+                <element signature="e#24510#24901#0" expanded="false" />
+                <element signature="e#24900#24901#0" expanded="false" />
+                <element signature="e#25039#25268#0" expanded="false" />
+                <element signature="e#25267#25268#0" expanded="false" />
+                <element signature="e#25359#25590#0" expanded="false" />
+                <element signature="e#25589#25590#0" expanded="false" />
+                <element signature="method#connectToFTP#0;class#FXController#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FXMonitorWindow.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/file/controller/monitor/FXMonitorWindow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -127,11 +162,22 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
-        <option value="Class" />
         <option value="package-info" />
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+        <option value="Singleton" />
+        <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>System.</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -141,38 +187,70 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/GUIwindow.java" />
-        <option value="$PROJECT_DIR$/src/Infowindow.java" />
-        <option value="$PROJECT_DIR$/src/icons/TableRenderer.java" />
-        <option value="$PROJECT_DIR$/src/SearchWindow.java" />
-        <option value="$PROJECT_DIR$/src/InfoWindow.java" />
-        <option value="$PROJECT_DIR$/src/Viewer.java" />
-        <option value="$PROJECT_DIR$/src/Interfaces" />
-        <option value="$PROJECT_DIR$/src/inter" />
-        <option value="$PROJECT_DIR$/src/Settable.java" />
-        <option value="$PROJECT_DIR$/src/Pathable.java" />
-        <option value="$PROJECT_DIR$/src/Refreshable.java" />
-        <option value="$PROJECT_DIR$/src/Dateble.java" />
-        <option value="$PROJECT_DIR$/src/Lambdable.java" />
-        <option value="$PROJECT_DIR$/src/TableRenderer.java" />
-        <option value="$PROJECT_DIR$/src/FileManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InfoWindow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Dateble.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Lambdable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Pathable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Settable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Refreshable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TableRenderer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FileManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Viewer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fx_shell/FXcontroller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fx_shell/FXcontr.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fx_shell/C.java" />
+        <option value="$PROJECT_DIR$/src/main/java/file/controller/MessageSystem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/file/controller/MonitorWindow.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/shell.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/filemonitor.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/file/controller/FXMonitowWindowController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/file/controller/FXMonitorWindow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/file/controller/Monitor/FXMonitowWindowController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/file/controller/Monitor/Monitor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/file/controller/Monitor/FXMonitorWindow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/file/controller/SwingMonitorWindow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/file/controller/monitor/SwingMonitorWindow.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/views/filemonitor.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/file/controller/monitor/FXMessageSystem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/file/controller/FXMessageSystem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fx_shell/messanger/Messenger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fx_shell/messanger/MessageSystem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fx_shell/messanger/FXMessageSystem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sw_shell/FileManagerShell.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fx_shell/fxutility/SearchWindowController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/views/searchwindow.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/file/utility/Utility.java" />
+        <option value="$PROJECT_DIR$/src/main/java/file/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fx_shell/messanger/FXShellMessageSystem.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/views/search_result_window.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/file/controller/monitor/FXMonitowWindowController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/file/controller/monitor/FXMonitorWindow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/file/utility/FileUtility.java" />
+        <option value="$PROJECT_DIR$/src/main/java/file/controller/monitor/Monitor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ftpfile/FTPfileUnit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fx_shell/FTPButton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fx_shell/DriveButton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ftpfile/controller/FTPcontroller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ftpfile/model/FTPfileUnit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ftpfile/controller/FTPfileController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ftpfile/controller/FTPFileController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ftpfile/model/FTPFileUnit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/file/controller/FTPcontroller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/file/model/ftpfile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fx_shell/PathPanel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/file/controller/FileController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/file/controller/FXFileControllerMessageSystem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fx_shell/fxutility/SearchResultWindow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fx_shell/fxutility/SearchResultWindowController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fx_shell/FileManagerFXShell.java" />
+        <option value="$PROJECT_DIR$/src/main/java/file/model/FileUnit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/file/controller/FTPFileController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fx_shell/FXController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="Bundled (Maven 3)" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.3.9" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -186,6 +264,24 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="FileManager" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="FileManager" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
         </PATH_ELEMENT>
       </PATH>
       <PATH>
@@ -210,15 +306,30 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Duplicates</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -235,16 +346,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FileManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="FileManager" />
@@ -309,27 +415,150 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FileManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FileManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="file" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FileManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FileManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="file" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FileManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FileManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="file" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../commons-net-3.1-ftp.jar!/" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="Application.FileManager">
+  <component name="RecentsManager">
+    <key name="OPEN_URL_DIALOG">
+      <recent name="http://google.com" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\!Программирование\FileManager\src\main\java\fx_shell" />
+      <recent name="D:\!Программирование\FileManager\src\main\java\shell\messanger" />
+      <recent name="D:\!Программирование\FileManager\src\main\java\shell" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="shell.utility" />
+      <recent name="shell" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\!Программирование\FileManager\src\main\resources\views" />
+      <recent name="D:\!Программирование\FileManager\src\main\java\file\controller\Monitor" />
+      <recent name="D:\!Программирование\FileManager\src\main\java\file\controller" />
+      <recent name="D:\!Программирование\FileManager\src\main\resources" />
+      <recent name="D:\!Программирование\FileManager\src\main\java\fx_shell\fxml" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.File Manager FX Shell">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
@@ -339,7 +568,7 @@
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
       <option name="PREFERRED_AVD" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="DEBUGGER_TYPE" value="Java" />
@@ -347,14 +576,15 @@
       <option name="PREFERRED_AVD" value="" />
       <Java />
       <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
         <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
-      <method>
-        <option name="Make" enabled="true" />
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
@@ -375,12 +605,13 @@
       <option name="PREFERRED_AVD" value="" />
       <Java />
       <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
         <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
-      <method>
-        <option name="Make" enabled="true" />
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <module />
@@ -405,6 +636,136 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -421,6 +782,15 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -433,27 +803,6 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -482,6 +831,22 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
@@ -539,6 +904,12 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -567,47 +938,26 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
       <envs />
-      <properties />
-      <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="FileManager" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="FileManager" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="File Manager" />
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
     <configuration default="false" name="FileManager" type="MavenRunConfiguration" factoryName="Maven">
@@ -632,10 +982,129 @@
       </MavenSettings>
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.FileManager" />
-      <item index="1" class="java.lang.String" itemvalue="Maven.FileManager" />
+    <configuration default="false" name="Old FileManager" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="old.FileManager" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="File Manager" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="File Manager Swing Shell" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="sw_shell.FileManagerShell" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="File Manager" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="FX message" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="file.controller.FXFileControllerMessageSystem" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="File Manager" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="File Conntroller" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="file.controller.FileController" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="File Manager" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="FTP File Controller Test" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="file.controller.FTPFileController" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="File Manager" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="File Manager FX Shell" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="fx_shell.FileManagerFXShell" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk1.8.0_111" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="File Manager" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="Maven.FileManager" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Old FileManager" />
+      <item index="2" class="java.lang.String" itemvalue="Application.File Manager Swing Shell" />
+      <item index="3" class="java.lang.String" itemvalue="Application.FX message" />
+      <item index="4" class="java.lang.String" itemvalue="Application.File Conntroller" />
+      <item index="5" class="java.lang.String" itemvalue="Application.FTP File Controller Test" />
+      <item index="6" class="java.lang.String" itemvalue="Application.File Manager FX Shell" />
     </list>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -650,8 +1119,40 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1476182410898</updated>
+      <workItem from="1494923113217" duration="899000" />
+      <workItem from="1496400175896" duration="11420000" />
+      <workItem from="1496729514957" duration="64820000" />
+      <workItem from="1496992387955" duration="2052000" />
+      <workItem from="1496994484396" duration="1842000" />
+      <workItem from="1496996957831" duration="13658000" />
+      <workItem from="1497253277878" duration="49973000" />
+      <workItem from="1497511332725" duration="31752000" />
+      <workItem from="1497851310781" duration="105930000" />
+      <workItem from="1498458544998" duration="32011000" />
+      <workItem from="1498716695807" duration="41622000" />
+      <workItem from="1499064913441" duration="8935000" />
+      <workItem from="1499079744332" duration="28848000" />
+      <workItem from="1499240453930" duration="44382000" />
+      <workItem from="1499669409367" duration="29866000" />
+      <workItem from="1499838981402" duration="53914000" />
+      <workItem from="1503912252674" duration="1565000" />
+      <workItem from="1503913976384" duration="1967000" />
+      <workItem from="1503916013088" duration="2625000" />
+      <workItem from="1503987101384" duration="5256000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="533337000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -659,57 +1160,39 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2851109" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15677084" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2851109" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17916666" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2851109" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22083333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20208333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39915523" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.496875" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32604167" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.49791667" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32604167" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2851109" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39915523" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2851109" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32604167" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22083333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -724,442 +1207,355 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="106" />
+      <option name="time" value="146" />
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="keycode" language="JAVA" />
-        <watch expression="CurrentPath[0]" language="JAVA" />
-        <watch expression="CurrentPath[1]" language="JAVA" />
-        <watch expression="n" language="JAVA" />
-      </configuration>
-    </watches-manager>
+    <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/FileManager.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/javafx-src.zip!/javafx/scene/layout/GridPane.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/javafx-src.zip!/javafx/scene/control/TextInputDialog.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/sw_shell/messanger/MessageSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="493">
+          <caret line="31" column="39" lean-forward="false" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FileManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/views/file_monitor_window.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="17">
+          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/javax/swing/DefaultListSelectionModel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sw_shell/FileManagerShell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="684" column="0" selection-start-line="684" selection-start-column="0" selection-end-line="684" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="430" column="147" lean-forward="false" selection-start-line="427" selection-start-column="20" selection-end-line="430" selection-end-column="147" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/io/BufferedInputStream.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/views/main_shell.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="181" column="11" selection-start-line="181" selection-start-column="11" selection-end-line="181" selection-end-column="11" />
+        <state relative-caret-position="119">
+          <caret line="58" column="73" lean-forward="true" selection-start-line="58" selection-start-column="73" selection-end-line="58" selection-end-column="73" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/io/FileInputStream.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/util/Collection.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/javafx-src.zip!/javafx/collections/ObservableList.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/fx_shell/messanger/Messenger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1666">
-          <caret line="122" column="11" selection-start-line="122" selection-start-column="11" selection-end-line="122" selection-end-column="11" />
+        <state relative-caret-position="187">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/io/File.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fx_shell/messanger/FXShellMessageSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1059">
-          <caret line="1032" column="19" selection-start-line="1032" selection-start-column="19" selection-end-line="1032" selection-end-column="19" />
+        <state relative-caret-position="252">
+          <caret line="48" column="5" lean-forward="false" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/javax/swing/Scrollable.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/views/search_result_window.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        <state relative-caret-position="374">
+          <caret line="22" column="78" lean-forward="false" selection-start-line="22" selection-start-column="78" selection-end-line="22" selection-end-column="78" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/javax/swing/event/CellEditorListener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/file/controller/monitor/FXMonitowWindowController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+        <state relative-caret-position="541">
+          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/awt/AWTEventMulticaster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="259" column="0" selection-start-line="259" selection-start-column="0" selection-end-line="259" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/javax/swing/JTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5148">
-          <caret line="285" column="23" selection-start-line="285" selection-start-column="23" selection-end-line="285" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/javax/swing/ListSelectionModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="301" column="43" selection-start-line="301" selection-start-column="43" selection-end-line="301" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/javax/swing/event/ListSelectionListener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/file/controller/monitor/Monitor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/javax/swing/event/ListSelectionEvent.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/file/controller/monitor/SwingMonitorWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        <state relative-caret-position="374">
+          <caret line="25" column="58" lean-forward="true" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/javax/swing/table/DefaultTableModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9399">
-          <caret line="621" column="44" selection-start-line="621" selection-start-column="44" selection-end-line="621" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/io/OutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="137" column="16" selection-start-line="137" selection-start-column="16" selection-end-line="137" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/icons/TableRenderer.java" />
-    <entry file="file://$PROJECT_DIR$/src/SearchWindow.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48">
-          <caret line="2420" column="20" selection-start-line="2420" selection-start-column="20" selection-end-line="2420" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/javax/swing/JEditorPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1405" column="32" selection-start-line="1405" selection-start-column="32" selection-end-line="1405" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#92111#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#19382#19532#0" expanded="false" />
-            <element signature="e#19531#19532#0" expanded="false" />
-            <element signature="e#25342#25578#0" expanded="false" />
-            <element signature="e#25577#25578#0" expanded="false" />
-            <element signature="e#26574#26925#0" expanded="false" />
-            <element signature="e#26924#26925#0" expanded="false" />
-            <element signature="e#27279#27471#0" expanded="false" />
-            <element signature="e#27470#27471#0" expanded="false" />
-            <element signature="e#30330#30484#0" expanded="false" />
-            <element signature="e#30483#30484#0" expanded="false" />
-            <element signature="e#31443#31444#0" expanded="false" />
-            <element signature="e#31509#31510#0" expanded="false" />
-            <element signature="e#34445#34446#0" expanded="false" />
-            <element signature="e#34535#34536#0" expanded="false" />
-            <element signature="e#35149#35150#0" expanded="false" />
-            <element signature="e#35181#35182#0" expanded="false" />
-            <element signature="e#35402#35403#0" expanded="false" />
-            <element signature="e#35445#35446#0" expanded="false" />
-            <element signature="e#36179#36180#0" expanded="false" />
-            <element signature="e#36245#36246#0" expanded="false" />
-            <element signature="e#49423#49424#0" expanded="false" />
-            <element signature="e#49476#49477#0" expanded="false" />
-            <element signature="e#61829#61845#0" expanded="false" />
-            <element signature="e#66713#66714#0" expanded="false" />
-            <element signature="e#66787#66788#0" expanded="false" />
-            <element signature="e#69567#69568#0" expanded="false" />
-            <element signature="e#69610#69611#0" expanded="false" />
-            <element signature="e#70057#70058#0" expanded="false" />
-            <element signature="e#70149#70150#0" expanded="false" />
-            <element signature="e#70636#70637#0" expanded="false" />
-            <element signature="e#70676#70677#0" expanded="false" />
-            <element signature="e#74527#74528#0" expanded="false" />
-            <element signature="e#74599#74600#0" expanded="false" />
-            <element signature="e#74833#74834#0" expanded="false" />
-            <element signature="e#74896#74897#0" expanded="false" />
-            <element signature="e#75123#75124#0" expanded="false" />
-            <element signature="e#75184#75185#0" expanded="false" />
-            <element signature="e#77075#77076#0" expanded="false" />
-            <element signature="e#77141#77142#0" expanded="false" />
-            <element signature="e#77212#77213#0" expanded="false" />
-            <element signature="e#77278#77279#0" expanded="false" />
-            <element signature="e#77349#77350#0" expanded="false" />
-            <element signature="e#77415#77416#0" expanded="false" />
-            <element signature="e#80939#80940#0" expanded="false" />
-            <element signature="e#80974#80975#0" expanded="false" />
-            <element signature="e#84649#84650#0" expanded="false" />
-            <element signature="e#84700#84701#0" expanded="false" />
-            <element signature="e#87302#87303#0" expanded="false" />
-            <element signature="e#87354#87355#0" expanded="false" />
-            <element signature="e#87430#87431#0" expanded="false" />
-            <element signature="e#87482#87483#0" expanded="false" />
-            <element signature="e#87562#87563#0" expanded="false" />
-            <element signature="e#87613#87614#0" expanded="false" />
-            <element signature="e#91466#91467#0" expanded="false" />
-            <element signature="e#91509#91510#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/awt/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="2448" column="15" selection-start-line="2448" selection-start-column="15" selection-end-line="2448" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/awt/Frame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="711" column="54" selection-start-line="711" selection-start-column="54" selection-end-line="711" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/awt/image/ReplicateScaleFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="99" column="11" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/awt/image/AreaAveragingScaleFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="76" column="10" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/awt/Image.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="171" column="38" selection-start-line="171" selection-start-column="38" selection-end-line="171" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/awt/Graphics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1008">
-          <caret line="881" column="28" selection-start-line="881" selection-start-column="28" selection-end-line="881" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/javax/swing/JOptionPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="791" column="33" selection-start-line="791" selection-start-column="33" selection-end-line="791" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interfaces" />
-    <entry file="file://$PROJECT_DIR$/src/inter" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/javax/swing/table/TableCellRenderer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ftpfile/FTPfileUnit.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/fx_shell/messanger/FTPbutton.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/fx_shell/FTPButton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+          <caret line="13" column="55" lean-forward="false" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/util/Date.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fx_shell/DriveButton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="176" column="11" selection-start-line="176" selection-start-column="11" selection-end-line="176" selection-end-column="11" />
+        <state relative-caret-position="340">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/io/FileOutputStream.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/util/Vector.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/io/Serializable.java" />
+    <entry file="jar://$PROJECT_DIR$/../commons-net-3.1-ftp.jar!/org/apache/commons/net/ftp/FTPFile.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ftpfile/model/FTPFileUnit.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/file/controller/FTPcontroller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4680">
-          <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TableRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="166" column="12" selection-start-line="166" selection-start-column="12" selection-end-line="166" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FileManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/file/model/ftpfile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pathable.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/util/StringTokenizer.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/util/List.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/util/Arrays.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/io/File.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/fx_shell/PathPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="323">
+          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Refreshable.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/file/controller/FXFileControllerMessageSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="6" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="-564">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Settable.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/file/utility/Utility.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Dateble.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/file/utility/FileUtility.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="323">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lambdable.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fx_shell/fxutility/SearchResultWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="371">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InfoWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Viewer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="115" column="45" selection-start-line="115" selection-start-column="45" selection-end-line="115" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/package-info.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fx_shell/fxutility/SearchResultWindowController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fx_shell/FileManagerFXShell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/old/FileManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="1190" column="42" lean-forward="false" selection-start-line="1190" selection-start-column="42" selection-end-line="1190" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../commons-net-3.1-ftp.jar!/org/apache/commons/net/ftp/FTPClient.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar!/org/apache/commons/io/output/CountingOutputStream.class" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/io/FilterOutputStream.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar!/org/apache/commons/io/output/ProxyOutputStream.class" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/lang/String.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/file/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/file/controller/FTPFileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="78" column="55" lean-forward="true" selection-start-line="78" selection-start-column="55" selection-end-line="78" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/javafx-src.zip!/javafx/collections/FXCollections.java" />
+    <entry file="uml://MAVEN/Joshimo:FileManager:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>Joshimo:FileManager:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="0.0" y="69.0">Joshimo:FileManager:1.0-SNAPSHOT</node>
+            <node x="177.0" y="0.0">commons-net:commons-net:jar:3.3</node>
+            <node x="180.5" y="69.0">commons-io:commons-io:jar:2.4</node>
+            <node x="189.0" y="138.0">org.controlsfx:controlsfx:jar:8.40.12</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Joshimo:FileManager:1.0-SNAPSHOT" target="commons-net:commons-net:jar:3.3">
+              <point x="48.5" y="-9.666666666666671" />
+              <point x="-54.0" y="-0.0" />
+            </edge>
+            <edge source="Joshimo:FileManager:1.0-SNAPSHOT" target="commons-io:commons-io:jar:2.4">
+              <point x="48.5" y="-0.0" />
+              <point x="-50.5" y="-0.0" />
+            </edge>
+            <edge source="Joshimo:FileManager:1.0-SNAPSHOT" target="org.controlsfx:controlsfx:jar:8.40.12">
+              <point x="48.5" y="9.666666666666657" />
+              <point x="-42.0" y="-0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-119.0" y="32.0" />
+          <SelectedNodes>
+            <node>org.controlsfx:controlsfx:jar:8.40.12</node>
+            <node>Joshimo:FileManager:1.0-SNAPSHOT</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="http://google.com">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/file/controller/monitor/FXMonitorWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InfoWindow.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fx_shell/FXController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        <state relative-caret-position="17">
+          <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
           <folding>
-            <element signature="e#0#2219#0" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="e#3872#4251#0" expanded="false" />
+            <element signature="e#4250#4251#0" expanded="false" />
+            <element signature="e#4293#4680#0" expanded="false" />
+            <element signature="e#4679#4680#0" expanded="false" />
+            <element signature="e#4725#5107#0" expanded="false" />
+            <element signature="e#5106#5107#0" expanded="false" />
+            <element signature="e#5150#5540#0" expanded="false" />
+            <element signature="e#5539#5540#0" expanded="false" />
+            <element signature="method#handleSelection#0;class#FXController#0" expanded="false" />
+            <element signature="method#handleDoubleclick#0;class#FXController#0" expanded="false" />
+            <element signature="method#handleNewDirButtonAction#0;class#FXController#0" expanded="false" />
+            <element signature="method#handleRenameButtonAction#0;class#FXController#0" expanded="false" />
+            <element signature="method#handleCopyButtonAction#0;class#FXController#0" expanded="false" />
+            <element signature="method#handleSearchButtonAction#0;class#FXController#0" expanded="false" />
+            <element signature="e#16304#16492#0" expanded="false" />
+            <element signature="e#16491#16492#0" expanded="false" />
+            <element signature="method#getParentDirectoryPath#0;class#FXController#0" expanded="false" />
+            <element signature="method#setFTPmode#0;class#FXController#0" expanded="false" />
+            <element signature="method#isFTPmode#0;class#FXController#0" expanded="false" />
+            <element signature="method#createDrivesPanels#0;class#FXController#0" expanded="false" />
+            <element signature="e#23931#24322#0" expanded="false" />
+            <element signature="e#24321#24322#0" expanded="false" />
+            <element signature="e#24510#24901#0" expanded="false" />
+            <element signature="e#24900#24901#0" expanded="false" />
+            <element signature="e#25039#25268#0" expanded="false" />
+            <element signature="e#25267#25268#0" expanded="false" />
+            <element signature="e#25359#25590#0" expanded="false" />
+            <element signature="e#25589#25590#0" expanded="false" />
+            <element signature="method#connectToFTP#0;class#FXController#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FileManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#33531#33532#0" expanded="true" />
-            <element signature="e#33577#33578#0" expanded="true" />
-            <element signature="e#33607#33608#0" expanded="true" />
-            <element signature="e#33654#33655#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TableRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Dateble.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pathable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Refreshable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Settable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lambdable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Viewer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2284">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+        <state relative-caret-position="352">
+          <caret line="37" column="40" lean-forward="true" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/file/model/FileUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2381">
+          <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6083#6084#0" expanded="true" />
+            <element signature="e#6127#6128#0" expanded="true" />
+            <element signature="method#getSize#0;class#FileUnit#0" expanded="false" />
+            <element signature="method#getExtension#0;class#FileUnit#0" expanded="false" />
+            <element signature="method#getAttribues#0;class#FileUnit#0" expanded="false" />
+            <element signature="method#getDate#0;class#FileUnit#0" expanded="false" />
+            <element signature="method#createFileTypeConstant#0;class#FileUnit#0" expanded="false" />
+            <element signature="method#identify#0;class#FileUnit#0" expanded="false" />
+            <element signature="method#getAbsolutePath#0;class#FileUnit#0" expanded="false" />
+            <element signature="method#getName#0;class#FileUnit#0" expanded="false" />
+            <element signature="method#isFile#0;class#FileUnit#0" expanded="false" />
+            <element signature="method#isDirectory#0;class#FileUnit#0" expanded="false" />
+            <element signature="method#toString#0;class#FileUnit#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/file/controller/FileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setGUI#0;class#FileController#0" expanded="false" />
+            <element signature="method#getDrivesList#0;class#FileController#0" expanded="false" />
+            <element signature="method#getFileList#0;class#FileController#0" expanded="false" />
+            <element signature="method#renameFileOrDirectory#0;class#FileController#0" expanded="false" />
+            <element signature="method#renameFileOrDirectory#1;class#FileController#0" expanded="false" />
+            <element signature="method#CheckFileName#0;class#FileController#0" expanded="false" />
+            <element signature="method#DeleteFile#0;class#FileController#0" expanded="false" />
+            <element signature="method#deleteFileOrDirectory#0;class#FileController#0" expanded="false" />
+            <element signature="method#createNewDirectory#0;class#FileController#0" expanded="false" />
+            <element signature="method#CopyDirectory#0;class#FileController#0" expanded="false" />
+            <element signature="method#DeleteDirectory#0;class#FileController#0" expanded="false" />
+            <element signature="method#copyFileOrDirectory#0;class#FileController#0" expanded="false" />
+            <element signature="method#copyFileOrDirectory#1;class#FileController#0" expanded="false" />
+            <element signature="method#executeFile#0;class#FileController#0" expanded="false" />
+            <element signature="method#searchFile#0;class#FileController#0" expanded="false" />
+            <element signature="method#searchFileByName#0;class#FileController#0" expanded="false" />
+            <element signature="method#CreateDestinationFileList#0;class#FileController#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1217,6 +1613,19 @@
       <state key="ModuleStructureConfigurable.UI">
         <settings>
           <last-edited>File Manager</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

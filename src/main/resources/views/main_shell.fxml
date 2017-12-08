@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?language java?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Pos?>
+
+<?import fx_shell.PathPanel?>
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity"
+            minHeight="820.0" minWidth="1280.0"
+            prefHeight="720.0" prefWidth="1280.0"
+            xmlns:fx="http://javafx.com/fxml/1"
+            xmlns="http://javafx.com/javafx/2.2"
+            fx:controller="fx_shell.FXController">
+    <style>
+        -fx-border-style: solid inside;
+        -fx-border-insets: 2;
+        -fx-border-width: 1;
+        -fx-border-radius: 2;
+        -fx-border-color: skyblue;
+        -fx-background-color: rgb(230,230,235);
+    </style>
+
+    <children>
+
+        <ButtonBar fx:id="leftDrivesButtons" layoutX="10.0" layoutY="10.0" prefHeight="60.0" prefWidth="625.0" buttonOrder="BUTTON_ORDER_WINDOWS"
+              xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+            <style>
+                -fx-border-style: solid inside;
+                -fx-border-width: 1;
+                -fx-border-radius: 2;
+                -fx-border-color: lightsteelblue;
+            </style>
+        </ButtonBar>
+
+        <ButtonBar fx:id="rightDrivesButtons" layoutX="645.0" layoutY="10.0" prefHeight="60.0" prefWidth="625.0" buttonOrder="BUTTON_ORDER_WINDOWS"
+              xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+            <style>
+                -fx-border-style: solid inside;
+                -fx-border-width: 1;
+                -fx-border-radius: 2;
+                -fx-border-color: lightsteelblue;
+            </style>
+        </ButtonBar>
+
+        <TableView fx:id="leftFileTable" layoutX="10.0" layoutY="80.0" prefHeight="500.0" prefWidth="625.0">
+            <style>
+                -fx-base: lightsteelblue;
+                -fx-control-inner-background: rgb(225,225,255);
+                -fx-background-color: rgb(170,170,200);
+                -fx-effect: dropshadow(gaussian, rgba(175,175,225 0.6), 5, 0.2, 1, 1);
+            </style>
+            <columns>
+                <TableColumn text="File Name" fx:id="leftFilenameColumn" />
+                <TableColumn prefWidth="50" text="Ext" fx:id="leftExtColumn" />
+                <TableColumn prefWidth="50" text="Size" fx:id="leftSizeColumn" />
+                <TableColumn prefWidth="120" text="Date" fx:id="leftDateColumn" />
+                <TableColumn prefWidth="40" text="Attr" fx:id="leftAttrColumn" />
+            </columns>
+        </TableView>
+
+        <TableView fx:id="rightFileTable" layoutX="645.0" layoutY="80.0" prefHeight="500.0" prefWidth="625.0">
+            <style>
+                -fx-base: lightsteelblue;
+                -fx-control-inner-background: rgb(225,225,255);
+                -fx-background-color: rgb(170,170,200);
+                -fx-effect: dropshadow(gaussian, rgba(175,175,225 0.6), 5, 0.2, 1, 1);
+            </style>
+            <columns>
+                <TableColumn text="File Name" fx:id="rightFilenameColumn" />
+                <TableColumn prefWidth="50" text="Ext" fx:id="rightExtColumn" />
+                <TableColumn prefWidth="50" text="Size" fx:id="rightSizeColumn" />
+                <TableColumn prefWidth="120" text="Date" fx:id="rightDateColumn" />
+                <TableColumn prefWidth="40" text="Attr" fx:id="rightAttrColumn" />
+            </columns>
+        </TableView>
+
+        <ButtonBar fx:id="functionalButtons" layoutX="10.0" layoutY="590.0" prefHeight="60.0" prefWidth="1260.0" buttonOrder="BUTTON_ORDER_WINDOWS"
+              xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+            <style>
+                -fx-border-style: solid inside;
+                -fx-border-width: 1;
+                -fx-border-radius: 2;
+                -fx-border-color: lightskyblue;
+            </style>
+            <buttons>
+                <Button text="Refresh" onAction="#handleRefreshButtonAction"/>
+                <Button text="New Directory" onAction="#handleNewDirButtonAction"/>
+                <Button text="Rename" onAction="#handleRenameButtonAction"/>
+                <Button text="Copy" onAction="#handleCopyButtonAction"/>
+                <Button text="Delete" onAction="#handleDeleteButtonAction"/>
+                <Button text="Search" onAction="#handleSearchButtonAction"/>
+                <Button text="Show Tree" onAction="#handleTreeButtonAction"/>
+                <Button text="Open in Picture Viewer" onAction="#handleViewerButtonAction"/>
+            </buttons>
+        </ButtonBar>
+
+        <PathPanel fx:id="pathPanel" layoutX="10.0" layoutY="660.0" prefHeight="25.0" prefWidth="1260.0" editable="false"/>
+
+    </children>
+
+</AnchorPane>

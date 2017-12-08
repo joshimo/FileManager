@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="file.controller.monitor.FXMonitowWindowController"
+            prefHeight="290.0" prefWidth="600.0">
+
+    <style>
+        -fx-border-style: solid inside;
+        -fx-border-insets: 5;
+        -fx-border-width: 2;
+        -fx-border-radius: 2;
+        -fx-border-color: skyblue;
+        -fx-background-color: rgb(230,230,235);
+    </style>
+
+    <children>
+
+        <Label fx:id="upperText"
+               alignment="TOP_CENTER"
+               cache="true"
+               cacheHint="SCALE"
+               prefHeight="110.0" prefWidth="550.0"
+               layoutX="25" layoutY="10"
+               textAlignment="CENTER" />
+
+        <Label fx:id="middleText"
+               alignment="CENTER_LEFT"
+               cache="true"
+               cacheHint="SCALE"
+               prefHeight="15.0" prefWidth="550.0"
+               layoutX="25" layoutY="120"/>
+
+        <ProgressBar fx:id="middleProgress"
+                     progress="0"
+                     layoutX="25" layoutY="145"
+                     prefHeight="30.0" prefWidth="550.0"/>
+
+        <Label fx:id="lowerText"
+               alignment="CENTER_LEFT"
+               cache="true"
+               cacheHint="SCALE"
+               layoutX="25" layoutY="190"
+               prefHeight="15.0" prefWidth="550.0"/>
+
+        <ProgressBar fx:id="lowerProgress"
+                     progress="0"
+                     layoutX="25" layoutY="215"
+                     prefHeight="30.0" prefWidth="550.0"/>
+
+    </children>
+
+</AnchorPane>
